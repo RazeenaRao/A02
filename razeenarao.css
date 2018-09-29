@@ -1,0 +1,103 @@
+body, html{
+	height:100%;
+	
+	margin:10px;
+  background-image: url("Mad-men-wallpaper-Best-Desktop-Wallpaper.jpg");
+}
+
+
+
+  #footer{
+      padding: 1em;
+      color: white;
+      background-color: black;
+      clear: left;
+      text-align: center;
+      
+      margin-top: 200px;
+   }
+
+   #past-section{
+    color:darkmagenta;
+    height:50%;
+    text-align:left;
+    font-style:italic; 
+  }
+
+  
+  
+h1{
+  text-align: center;
+  background-color: rgb(128, 107, 107);
+  font-size: 180%;
+  padding: 45px 0 5px 15px;
+  letter-spacing: 0em;
+  height:150%;
+}
+h2{
+  text-align: center;
+  background-color: CF49DE;
+  font-size: 180%;
+  padding: 45px 0 5px 15px;
+  letter-spacing: 0em;
+  height:150%;
+}
+.left{
+
+  height:88%;
+  width:50%;
+  float:left  
+}
+img{
+	margin-top:20px;
+	margin-left:20px;
+	border-radius: 50%;
+}
+iframe{
+	margin-right:20px;
+}
+
+.right_top{
+ 
+  height:35%;
+  width:50%;
+  float:right;
+ }
+.right_bottom{
+  float:right;
+  height:44%;
+  width:50%;
+ 
+ }
+
+.forms{
+	background-color:pink;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active{
+  background-color: rgb(80, 184, 170);
+}
+
+
