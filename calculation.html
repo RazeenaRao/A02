@@ -17,16 +17,21 @@
   <title></title>
   <link rel="stylesheet" href="razeenarao.css"/>
     </head>
-        <body><section = "container">
-                <header>
-                        <h2>Razeena Rao Nemarugommula</h2>
-                    </header>
+        <body>
+                <div>
+                        <header>
+                            <h2>Razeena Rao Nemarugommula</h2>
+                        </header>
+                      
+                    </div>
+        
             <ul>
-                    
-                    <li><a href="index.html">Home </a></li>
-                      <li><a class="active" href="Calculation.html">Calculation </a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-              
+                <li><a href="index.html">A02</a></li>
+                <li><a  href="index.html">Home </a></li>
+                <li><a class="active"  href="calculation.html">calculation </a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                
+                
               </ul>
   
 
@@ -45,8 +50,12 @@
                       <div class="col-md-4">
                       <div class="form-group">
                           <label for="first">Select the operation to perform</label>
-                          <input type="text" id="f">
-
+                          <select id="operators">
+                                  <option value="+">+</option>
+                                  <option value="-">-</option>
+                                  <option value="*">×</option>
+                                  <option value="/">÷</option>
+                                  <option value="%">%</option>
 
                       </select>
                       </div>
@@ -57,7 +66,7 @@
                           <div class="col-md-4"></div>
                           <div class="col-md-4">
                           <div class="form-group">
-                              <label for="first">Enter First value</label>
+                              <label for="first">Enter first value</label>
                               <input type="text" id="f">
                           </div>
                           </div>
@@ -67,14 +76,14 @@
                       <div class="col-md-4"></div>
                       <div class="col-md-4">
                       <div class="form-group">
-                          <label for="first">Enter Second value</label>
+                          <label for="first">Enter second value</label>
                           <input type="text"  id="s">
                       </div>
                       </div>
                       <div class="col-md-4"></div>
                   </div>
               <div class="row"><div class="col-md-4"></div><div class="col-md-4">
-              <button type="button" >Submit</button></div>
+              <button type="button"  onclick="calc()">Submit</button></div>
               <div class="col-md-4"></div></div><br>
               <div class="row">
                       <div class="col-md-4"></div>
@@ -89,7 +98,8 @@
           </form>
       </div>
       <footer id="footer" style="margin-top: 0px"color= "blue">razeena278@gmail.com</footer> 
- <!-- /container -->
+ 
+   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="main.js"></script>
   </body>
